@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* BACKGROUND */
+.leaf-bg {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #1b5e20, #4caf50, #c8e6c9);
+}
+
+/* GLASS EFFECT */
+.glass {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 25px;
+    color: #1b5e20;
+}
+
+/* LOGIN */
+.login-box {
+    width: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: none;
+}
+
+.login-box button {
+    background: #2e7d32;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* HEADER */
+.header {
+    margin: 20px;
+    text-align: center;
+}
+
+/* PRODUCT */
+.product-card {
+    margin: 20px;
+}
+
+.product-img {
+    width: 220px;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 14px;
+}
+
+.desc {
+    text-align: justify;
+    line-height: 1.7;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* UPLOAD */
+.upload-section {
+    margin: 20px;
+}
+
+.preview-img {
+    width: 200px;
+    margin-top: 10px;
+    display: none;
+    border-radius: 10px;
+}
